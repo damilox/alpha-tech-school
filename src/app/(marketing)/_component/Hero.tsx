@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 import Image from "next/image";
 
@@ -55,10 +56,10 @@ export function Hero() {
         {/* RIGHT COLUMN: Image with Glow Effect */}
         <div className="relative">
           {/* This div creates the glowing border & rounded corners */}
-          <div className="rounded-[2.5rem] overflow-hidden shadow-[0_0_50px_rgba(255,255,255,0.1)] border border-white/10">
+          <div className="rounded-[2.5rem] overflow-hidden shadow-[0_0_50px_rgba(255,255,255,0.4)] border border-white/10">
             {/* IMPORTANT: Replace '/hero-image.png' with your actual image file from Figma */}
             <Image 
-              src="/hero-image.png" 
+              src="/images/hero.jpg" 
               alt="Alpha Tech School Setup" 
               width={600} 
               height={400} 
