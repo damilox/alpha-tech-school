@@ -119,7 +119,7 @@ export default function AboutPage() {
           <p className="text-gray-600">We provide everything you need to succeed in your tech career journey.</p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {teamMembers.map((member, index) => (
             <TeamCard 
               key={index}
@@ -131,7 +131,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* 5. JOIN COMMUNITY CTA (Bottom Black Section) */}
       <section className="bg-black py-20 text-center">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-white mb-4">Join Our Community</h2>
