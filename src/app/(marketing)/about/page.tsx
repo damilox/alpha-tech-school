@@ -1,4 +1,4 @@
-
+"use client"
 import Image from "next/image";
 import Link from "next/link";
 import { TeamCard } from "../_component/TeamCard";
@@ -119,7 +119,7 @@ export default function AboutPage() {
           <p className="text-gray-600">We provide everything you need to succeed in your tech career journey.</p>
         </div>
 
-        <div className="grid grid-cols md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {teamMembers.map((member, index) => (
             <TeamCard 
               key={index}
