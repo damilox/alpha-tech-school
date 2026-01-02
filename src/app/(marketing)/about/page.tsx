@@ -8,9 +8,9 @@ const teamMembers = [
   { name: "Olasupo Sodiq", role: "CEO", image: "/images/team-image-1.jpg" },
   { name: "Oyinkansola Adisa", role: "Project Manager", image: "/images/team-image-2.jpg" },
   { name: "Omirin Adebayo", role: "FullStack Developer", image: "/images/team-image-3.jpg" },
-  { name: "Ajetomobi Damilola", role: "Frontend Developer", image: "/images/team-image-4.jpg" },
+  { name: "Ajetomobi Damilola", role: "Frontend Developer", image: "/images/dammy.jpg" },
   { name: "Favour Bakare", role: "Frontend Developer", image: "/images/team-image-5.jpg" },
-  { name: "Balogun Khadija", role: "Frontend Developer", image: "/images/team-image-6.jpg" },
+  { name: "Balogun Khadija", role: "Frontend Developer", image: "/images/deejah.jpg" },
   { name: "Bash", role: "Product Designer", image: "/images/team-image-7.jpg" },
   { name: "Ahmed", role: "Project Manager", image: "/images/team-image-8.jpg" },
 ];
@@ -138,10 +138,11 @@ export default function AboutPage() {
             Start your journey with Alpha Tech today and became part of a thriving community of learners and professionals.
           </p>
           <div className="md:flex gap-4 justify-center">
-            <Link href="/programs" className="bg-white text-black font-bold px-4 py-2.5 rounded-full hover:bg-gray-200 transition">
+            <Link href="/programs" className="bg-white text-black font-bold px-6 py-2.5 rounded-full hover:bg-gray-200 transition">
               Explore Programs
             </Link>
-            <Link href="/contact" className="border border-white/30 text-white font-bold px-4 py-2.5 rounded-full hover:bg-white/10 transition">
+            <Link href="/contact" className="border border-white/30 text-white font-bold px-6
+           py-2.5 rounded-full hover:bg-white/10 transition">
               Contact Us
             </Link>
           </div>
