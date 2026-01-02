@@ -6,21 +6,16 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-12 mb-16">
           
-          {/* Column 1: Brand */}
+         
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-xl font-bold text-white mb-4">Alpha Tech School</h3>
             <p className="text-gray-400 max-w-sm">
               A modern tech school focused on training people build realdigital skills and giving students hands-on experiences they need to grow in today's tech world
             </p>
-            <div className="flex gap-6">
-             {/* Social placeholders */}
-            <span className="text-gray-500 hover:text-white cursor-pointer">Instagram</span>
-            <span className="text-gray-500 hover:text-white cursor-pointer">Twitter</span>
-            <span className="text-gray-500 hover:text-white cursor-pointer">LinkedIn</span>
-          </div>
+            
           </div>
 
-          {/* Column 2: Links */}
+          
           <div>
             <h4 className="text-white font-semibold mb-6">Courses</h4>
             <ul className="space-y-4">
@@ -31,7 +26,7 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Column 3: Links */}
+          
           <div>
             <h4 className="text-white font-semibold mb-6">About Us</h4>
             <ul className="space-y-4">
@@ -39,10 +34,11 @@ export function Footer() {
               <li><Link href="/careers" className="text-gray-400 hover:text-white">careers</Link></li>
               <li><Link href="/contact" className="text-gray-400 hover:text-white">Contact Us</Link></li>
               <li><Link href="/services" className="text-gray-400 hover:text-white">Services</Link></li>
+              <li><Link href="/team" className="text-gray-400 hover:text-white">Team</Link></li>
             </ul>
           </div>
 
-          {/* Column 3: Contact */}
+         
           <div>
             <h4 className="text-white font-semibold mb-6">Contact</h4>
             <ul className="space-y-4 text-gray-400">
@@ -54,7 +50,6 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-500">
             © {new Date().getFullYear()} Alpha Tech School. All rights reserved.

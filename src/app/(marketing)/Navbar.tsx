@@ -82,7 +82,6 @@ export function Navbar() {
             </Link>
             
             
-            
             <Link 
               href="/services" 
               className="text-lg text-white"
