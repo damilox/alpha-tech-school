@@ -5,14 +5,14 @@ import { TeamCard } from "../_component/TeamCard";
 
 
 const teamMembers = [
-  { name: "Saheed Oluwake", role: "CEO", image: "/images/team-image-1.jpg" },
-  { name: "Ajetomobi Damilola", role: "Frontend Developer", image: "/images/team-image-2.jpg" },
-  { name: "Bakare Favour", role: "Frontend Developer", image: "/images/team-image-3.jpg" },
-  { name: "Balogun Khadijah", role: "Frontend Developer", image: "/images/team-image-4.jpg" },
-  { name: "Saheed Oluwake", role: "Marketing", image: "/images/team-image-5.jpg" },
-  { name: "Saheed Oluwake", role: "Instructor", image: "/images/team-image-6.jpg" },
-  { name: "Saheed Oluwake", role: "Operations", image: "/images/team-image-7.jpg" },
-  { name: "Saheed Oluwake", role: "Advisor", image: "/images/team-image-8.jpg" },
+  { name: "Olasupo Sodiq", role: "CEO", image: "/images/team-image-1.jpg" },
+  { name: "Oyinkansola Adisa", role: "Project Manager", image: "/images/team-image-2.jpg" },
+  { name: "Omirin Adebayo", role: "FullStack Developer", image: "/images/team-image-3.jpg" },
+  { name: "Ajetomobi Damilola", role: "Frontend Developer", image: "/images/team-image-4.jpg" },
+  { name: "Favour Bakare", role: "Frontend Developer", image: "/images/team-image-5.jpg" },
+  { name: "Balogun Khadija", role: "Frontend Developer", image: "/images/team-image-6.jpg" },
+  { name: "Bash", role: "Product Designer", image: "/images/team-image-7.jpg" },
+  { name: "Ahmed", role: "Project Manager", image: "/images/team-image-8.jpg" },
 ];
 
 export default function AboutPage() {

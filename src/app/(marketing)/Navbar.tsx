@@ -20,14 +20,12 @@ export function Navbar() {
           <Link href="/" className="text-sm font-medium text-black-300 hover:text-black-200">Home</Link>
           <Link href="/programs" className="text-sm font-medium text-black-300 hover:text-black-200">Programs</Link>
           <Link href="/about" className="text-sm font-medium text-black-300 hover:text-black-200">About us</Link>
-          <Link href="/contact" className="text-sm font-medium text-black-300 hover:text-black-200">Contact us</Link>
+          <Link href="/services" className="text-sm font-medium text-black-300 hover:text-black-200">Services</Link>
         </div>
 
         {/* 3. Auth Buttons (Hidden on Mobile) */}
         <div className="hidden items-center gap-4 md:flex">
-          <Link href="/login" className="text-sm font-medium text-black hover:underline">
-            Sign in
-          </Link>
+          <Link href="/contact" className="text-sm font-medium text-black-300 hover:text-black-200">Contact us</Link>
           <button className="rounded-full bg-black px-5 py-2.5 text-sm font-bold text-white hover:bg-gray-200 transition">
             Get Started
           </button>
@@ -51,10 +49,8 @@ export function Navbar() {
             <Link href="/about" className="text-lg text-gray-300">About us</Link>
             <Link href="/contact" className="text-lg text-gray-300">Contact us</Link>
             <div className="h-px bg-white/10 my-2" />
-            <Link href="/login" className="text-lg text-white">Sign in</Link>
-            <button className="w-full rounded-full bg-white py-3 text-black font-bold">
-              Get Started
-            </button>
+            <Link href="/services" className="text-lg text-white">Services</Link>
+            
           </div>
         </div>
       )}
