@@ -137,7 +137,7 @@ export default function AboutPage() {
           <p className="text-gray-400 mb-8 max-w-xl mx-auto">
             Start your journey with Alpha Tech today and became part of a thriving community of learners and professionals.
           </p>
-          <div className="flex gap-4 justify-center">
+          <div className="md:flex gap-4 justify-center">
             <Link href="/programs" className="bg-white text-black font-bold px-4 py-2.5 rounded-full hover:bg-gray-200 transition">
               Explore Programs
             </Link>
