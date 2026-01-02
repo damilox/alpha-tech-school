@@ -81,7 +81,7 @@ export function Navbar() {
               Contact us
             </Link>
             
-            <div className="h-px bg-white/10 my-2" />
+            
             
             <Link 
               href="/services" 
@@ -89,6 +89,13 @@ export function Navbar() {
               onClick={handleLinkClick} 
             >
               Services
+            </Link>
+            <Link 
+              href="/team" 
+              className="text-lg text-white"
+              onClick={handleLinkClick} 
+            >
+              Team
             </Link>
             
           </div>
