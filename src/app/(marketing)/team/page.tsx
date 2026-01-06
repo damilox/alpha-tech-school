@@ -14,13 +14,12 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
-// 1. THIS IS WHERE YOU ADD YOUR TEAM MEMBERS
-// Just copy a block inside the brackets {}, paste it, and change the details.
+
 const teamMembers = [
   {
     name: "Ajetomobi Damilola",
     role: "Frontend Developer",
-    image: "/images/dammy.jpg", // Make sure this image exists in public/images folder
+    image: "/images/dammy.jpg", 
     bio: "Passionate about building pixel-perfect user interfaces and scalable web applications with Next.js and TypeScript.",
     socials: {
       linkedin: "https://linkedin.com/in/ajetomobi-damilola",
@@ -53,7 +52,7 @@ const teamMembers = [
   {
     name: "Ajetomobi Damilola",
     role: "Frontend Developer",
-    image: "/images/dammy.jpg", // Make sure this image exists in public/images folder
+    image: "/images/dammy.jpg", 
     bio: "Passionate about building pixel-perfect user interfaces and scalable web applications with Next.js and TypeScript.",
     socials: {
       linkedin: "https://linkedin.com/in/ajetomobi-damilola",
@@ -90,7 +89,7 @@ export default function TeamPage() {
   return (
     <div className="min-h-screen bg-background py-20">
       
-      {/* PAGE HEADER */}
+      
       <div className="container mx-auto px-4 text-center mb-16">
         <Badge variant="outline" className="mb-4">Our People</Badge>
         <h1 className="text-4xl font-bold tracking-tight mb-4">Meet the Minds Behind Alpha Tech</h1>
@@ -171,8 +170,7 @@ export default function TeamPage() {
                     </Link>
                   )}
                   
-                  {/* Fallback for Behance/Website using Globe Icon */}
-                  {/* You can rename 'behance' in the data object above to trigger this */}
+                 
                   {(member.socials as any).behance && (
                     <Link href={(member.socials as any).behance} target="_blank">
                        <Button variant="outline" size="icon" className="rounded-full hover:text-blue-800 hover:border-blue-800">
