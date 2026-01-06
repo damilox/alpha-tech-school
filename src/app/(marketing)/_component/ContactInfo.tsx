@@ -41,7 +41,7 @@ export function ContactInfo() {
           </div>
           <div>
             <h4 className="font-bold text-black text-sm">Phone</h4>
-            <p className="text-gray-500 text-xs">+234 81 222 463 86</p>
+            <p className="text-gray-500 text-xs">+234 912 216 9158</p>
           </div>
         </div>
 
@@ -52,7 +52,7 @@ export function ContactInfo() {
           </div>
           <div>
             <h4 className="font-bold text-black text-sm">Office</h4>
-            <p className="text-gray-500 text-xs">31, Ilorin, Lagos.</p>
+            <p className="text-gray-500 text-xs">First building, Stella Maris junction, University Road, Oke Odo, Tanke, Ilorin</p>
           </div>
         </div>
 
@@ -63,22 +63,22 @@ export function ContactInfo() {
           </div>
           <div>
             <h4 className="font-bold text-black text-sm">Hours</h4>
-            <p className="text-gray-500 text-xs">Mon-Fri - 9AM - 6PM PST</p>
+            <p className="text-gray-500 text-xs">Mon-Fri - 9AM - 6PM</p>
           </div>
         </div>
       </div>
 
       {/* Social Media Footer */}
-      <div className="mt-8">
-        <h4 className="font-bold text-black text-sm mb-4">Follow Us</h4>
-        <div className="flex gap-3">
-          <Link href="#"><SocialIcon icon={Facebook} /></Link>
-          <Link href="#"><SocialIcon icon={Linkedin} /></Link>
-          <Link href="#"><SocialIcon icon={Instagram} /></Link>
-          {/* Using Facebook icon as placeholder for TikTok since standard Lucide package might differ */}
-          <Link href="#"><SocialIcon icon={Facebook} /></Link> 
-        </div>
-      </div>
+          {/* <div className="mt-8">
+            <h4 className="font-bold text-black text-sm mb-4">Follow Us</h4>
+            <div className="flex gap-3">
+              <Link href="#"><SocialIcon icon={Facebook} /></Link>
+              <Link href="#"><SocialIcon icon={Linkedin} /></Link>
+              <Link href="#"><SocialIcon icon={Instagram} /></Link>
+              {/* Using Facebook icon as placeholder for TikTok since standard Lucide package might differ 
+              <Link href="#"><SocialIcon icon={Facebook} /></Link> 
+            </div>
+          </div> */}
     </div>
   );
 }

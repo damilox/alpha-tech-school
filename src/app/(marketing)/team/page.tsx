@@ -1,4 +1,5 @@
-"use client"
+"use client";
+
 import React from 'react';
 import Image from "next/image";
 import Link from 'next/link';
@@ -7,88 +8,92 @@ import {
   Linkedin, 
   Instagram, 
   Twitter, 
-  Globe, 
-  Mail 
+  Globe,
+  Briefcase // I added Briefcase for Behance (optional, or reuse Globe)
 } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
+// 1. Define the interface so TypeScript knows these keys exist (Optional but good practice)
+interface Socials {
+  linkedin?: string;
+  github?: string;
+  instagram?: string;
+  twitter?: string;
+  behance?: string;
+  portfolio?: string;
+}
 
-const teamMembers = [
+interface TeamMember {
+  name: string;
+  role: string;
+  image: string;
+  bio: string;
+  socials: Socials;
+}
+
+const teamMembers: TeamMember[] = [
   {
-    name: "Ajetomobi Damilola",
-    role: "Frontend Developer",
-    image: "/images/dammy.jpg", 
-    bio: "Passionate about building pixel-perfect user interfaces and scalable web applications with Next.js and TypeScript.",
+    name: "Olasupo Sodiq",
+    role: "C.E.O/Lead Product Designer",
+    image: "/images/alpha.jpg", 
+    bio: "Enthusiastic and curious individual passionate about technology, AI, and exploring new ideas. Always eager to learn, connect with interesting people, and tackle challenging questions. Open to collaborations, discussions, and making meaningful connections!",
     socials: {
-      linkedin: "https://linkedin.com/in/ajetomobi-damilola",
-      github: "https://github.com/yourusername",
-      instagram: "https://instagram.com/ajetomobi-damilola",
-      twitter: "https://x.com/ajetomobi-damilola"
+      linkedin: "https://www.linkedin.com/in/olasupo-sodiq-872304238/",
+      twitter: "https://x.com/saintQ19"
     }
   },
   {
-    name: "Balogun Khadijah",
-    role: "UI/UX Designer",
-    image: "/images/team2.jpg", 
-    bio: "Crafting intuitive digital experiences. Specialist in Figma, user research, and interactive prototyping.",
+    name: "Oyinkansola Adisa",
+    role: "Project Manager",
+    image: "/images/pm.jpg", 
+    bio: "I focus on understanding real user problems and turning them into practical solutions that help products grow and deliver lasting value.",
     socials: {
       linkedin: "https://linkedin.com",
       behance: "https://behance.net", 
       instagram: "https://instagram.com"
     }
   },
+  {
+    name: "Omirin Adebayo",
+    role: "Full-Stack Developer",
+    image: "/images/team3.jpg", 
+    bio: "Architecting robust server-side solutions. Expert in Node.js, Python, and Database management.",
+    socials: {
+      linkedin: "https://linkedin.com",
+      github: "https://github.com"
+    }
+  },
+  {
+    name: "Ajetomobi Damilola",
+    role: "Frontend Developer",
+    image: "/images/dammy.jpg", 
+    bio: "Frontend Developer focused on scalability and precision. I use Next.js, TypeScript and other stacks to build applications that are strictly faithful to the design and performant under load.",
+    socials: {
+      linkedin: "https://linkedin.com/in/ajetomobi-damilola",
+      github: "https://github.com/damilox",
+      instagram: "https://instagram.com/ajetomobi-damilola",
+      twitter: "https://x.com/AjetomobiD28536",
+      portfolio: "https://ajetomobi-damilola.vercel.app/" 
+    }
+  }, 
   {
     name: "Favour Bakare",
-    role: "Backend Engineer",
-    image: "/images/team3.jpg", 
-    bio: "Architecting robust server-side solutions. Expert in Node.js, Python, and Database management.",
-    socials: {
-      linkedin: "https://linkedin.com",
-      github: "https://github.com"
-    }
-  },
-  {
-    name: "Ajetomobi Damilola",
     role: "Frontend Developer",
-    image: "/images/dammy.jpg", 
-    bio: "Passionate about building pixel-perfect user interfaces and scalable web applications with Next.js and TypeScript.",
+    image: "/images/favour.jpg", 
+    bio: "I solve real problems through thoughtful frontend work, building user-focused web experiences that scale cleanly as products grow.",
     socials: {
-      linkedin: "https://linkedin.com/in/ajetomobi-damilola",
-      github: "https://github.com/yourusername",
-      instagram: "https://instagram.com/ajetomobi-damilola",
-      twitter: "https://x.com/ajetomobi-damilola"
+      linkedin: "https://www.linkedin.com/in/favour25",
+      github: "https://github.com/oluwaduyilemi",
+      twitter: "https://x.com/Duyilemi_Code",
     }
   },
-  {
-    name: "Sarah Johnson",
-    role: "UI/UX Designer",
-    image: "/images/team2.jpg", 
-    bio: "Crafting intuitive digital experiences. Specialist in Figma, user research, and interactive prototyping.",
-    socials: {
-      linkedin: "https://linkedin.com",
-      behance: "https://behance.net", 
-      instagram: "https://instagram.com"
-    }
-  },
-  {
-    name: "Michael Chen",
-    role: "Backend Engineer",
-    image: "/images/team3.jpg", 
-    bio: "Architecting robust server-side solutions. Expert in Node.js, Python, and Database management.",
-    socials: {
-      linkedin: "https://linkedin.com",
-      github: "https://github.com"
-    }
-  },
-  
 ];
 
 export default function TeamPage() {
   return (
     <div className="min-h-screen bg-background py-20">
-      
       
       <div className="container mx-auto px-4 text-center mb-16">
         <Badge variant="outline" className="mb-4">Our People</Badge>
@@ -106,22 +111,13 @@ export default function TeamPage() {
             <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow duration-300 border-none bg-secondary/10">
               
               {/* IMAGE SECTION */}
-              <div className="relative h-64 w-full bg-gray-200">
-                {/* Note: If you don't have images yet, this placeholder <div> shows.
-                   Once you have images, the <Image> tag below takes over.
-                */}
-                <div className="absolute inset-0 flex items-center justify-center text-gray-400">
-                  [Image: {member.name}]
-                </div>
-                
-                {/* Uncomment this when you have real images */}
-                {/* <Image 
+              <div className="relative aspect-[4/5] w-full bg-gray-200">
+                <Image 
                   src={member.image} 
                   alt={member.name}
                   fill
-                  className="object-cover"
+                  className="object-cover object-top"
                 />
-                */}
               </div>
 
               {/* CONTENT SECTION */}
@@ -135,8 +131,8 @@ export default function TeamPage() {
                   {member.bio}
                 </p>
 
-                {/* SOCIAL LINKS (Generated Dynamically) */}
-                <div className="flex justify-center gap-3">
+                {/* SOCIAL LINKS */}
+                <div className="flex justify-center gap-3 flex-wrap">
                   
                   {member.socials.linkedin && (
                     <Link href={member.socials.linkedin} target="_blank">
@@ -170,11 +166,20 @@ export default function TeamPage() {
                     </Link>
                   )}
                   
-                 
-                  {(member.socials as any).behance && (
-                    <Link href={(member.socials as any).behance} target="_blank">
+                  {/* BEHANCE (Using Briefcase or Globe icon) */}
+                  {member.socials.behance && (
+                    <Link href={member.socials.behance} target="_blank">
                        <Button variant="outline" size="icon" className="rounded-full hover:text-blue-800 hover:border-blue-800">
-                        <Globe className="h-4 w-4" /> {/* Behance/Portfolio */}
+                        <Briefcase className="h-4 w-4" /> 
+                      </Button>
+                    </Link>
+                  )}
+
+                  {/* PORTFOLIO / WEBSITE (Using Globe icon) */}
+                  {member.socials.portfolio && (
+                    <Link href={member.socials.portfolio} target="_blank">
+                       <Button variant="outline" size="icon" className="rounded-full hover:text-green-600 hover:border-green-600">
+                        <Globe className="h-4 w-4" />
                       </Button>
                     </Link>
                   )}

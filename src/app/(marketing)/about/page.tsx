@@ -5,13 +5,13 @@ import { TeamCard } from "../_component/TeamCard";
 
 
 const teamMembers = [
-  { name: "Olasupo Sodiq", role: "CEO/ Lead-Product Designer", image: "/images/cdq.jpg" },
+  { name: "Olasupo Sodiq", role: "CEO/ Lead-Product Designer", image: "/images/alpha.jpg" },
   { name: "Oyinkansola Adisa", role: "Project Manager", image: "/images/pm.jpg" },
   { name: "Omirin Adebayo", role: "FullStack Developer", image: "/images/team-image-3.jpg" },
   { name: "Ajetomobi Damilola", role: "Frontend Developer", image: "/images/dammy.jpg" },
-  { name: "Favour Bakare", role: "Frontend Developer", image: "/images/team-image-5.jpg" },
+  { name: "Favour Bakare", role: "Frontend Developer", image: "/images/favour.jpg" },
   { name: "Balogun Khadija", role: "Frontend Developer", image: "/images/deejah.jpg" },
-  { name: "Crystal Laffite", role: "Product Designer", image: "/images/crystal.jpg" },
+  { name: "Crystal Laffitte", role: "Product Designer", image: "/images/crystal.jpg" },
   { name: "Abdulsalam Bashir", role: "UI/UX Designer", image: "/images/bash.jpg" },
   { name: "Ahmmed Sheu", role: "Project Manager", image: "/images/ahmmed.jpg" },
   { name: "Giwa Asiat", role: "UI/UX Designer", image: "/images/opeyemi.jpg" },
