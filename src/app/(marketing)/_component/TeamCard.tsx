@@ -25,11 +25,7 @@ export function TeamCard({ name, role, image }: TeamCardProps) {
       <div className="absolute bottom-0 left-0 right-0 p-4 text-center">
         <h3 className="text-white font-bold text-lg">{name}</h3>
         <p className="text-gray-300 text-xs uppercase tracking-wider mb-3">{role}</p>
-        
-     
-        {/* <button className="bg-white/20 backdrop-blur-sm border border-white/30 text-white text-[10px] font-bold px-4 py-1.5 rounded-full hover:bg-white hover:text-black transition-colors">
-          View Profile
-        </button> */}
+      
       </div>
     </div>
   );

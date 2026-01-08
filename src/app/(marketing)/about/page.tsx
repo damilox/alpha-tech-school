@@ -64,7 +64,7 @@ export default function AboutPage() {
                 Mission
               </span>
               <p className="text-gray-600 leading-relaxed">
-                Transform Alpha Tech School's proven in-person training model from manual operations 
+                Transform Alpha Tech School&#39;s proven in-person training model from manual operations 
                 to a scalable digital platform, enabling seamless student onboarding, course management, 
                 and payment processing with the foundation to expand nationwide online tech education across Nigeria.
               </p>
@@ -85,7 +85,7 @@ export default function AboutPage() {
                 Vision
               </span>
               <p className="text-gray-600 leading-relaxed">
-                Our mission is to transform Alpha Tech School's proven in-person training model 
+                Our mission is to transform Alpha Tech School&#39;s proven in-person training model 
                 from manual operations to a scalable digital platform, enabling seamless student 
                 onboarding, course management, and payment processing.
               </p>

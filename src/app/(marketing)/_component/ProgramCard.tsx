@@ -14,7 +14,6 @@ export interface Program {
   duration: string;
   students: number;
   rating: number;
-  level: string;
   featured?: boolean;
 }
 
@@ -63,20 +62,6 @@ export function ProgramCard({ program }: ProgramCardProps) {
           <span className="flex items-center gap-1 text-yellow-500">
             <Star className="h-4 w-4 fill-yellow-500" /> {program.rating}
           </span>
-        </div>
-
-        {/* Footer */}
-        <div className=" flex items-center justify-between gap-34 pt-2 absolut">
-          <span className="rounded-full bg-gray-400 px-3 py- text-xs">
-            {program.level}
-          </span>
-
-          <Link
-            href={`/programs/${program.slug}`}
-            className="rounded-full bg-black px-4 py-1 text-xs text-white transition hover:bg-black/80"
-          >
-            View Details
-          </Link>
         </div>
       </div>
     </div>

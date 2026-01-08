@@ -50,15 +50,14 @@ const teamMembers: TeamMember[] = [
     image: "/images/pm.jpg", 
     bio: "I focus on understanding real user problems and turning them into practical solutions that help products grow and deliver lasting value.",
     socials: {
-      linkedin: "https://linkedin.com",
-      behance: "https://behance.net", 
-      instagram: "https://instagram.com"
+      linkedin: "https://www.linkedin.com/in/oyinkansola-adisa-0413a6256",
+      instagram: "https://www.instagram.com/_oiinkann_?igsh=enFndjdobml4eDFs"
     }
   },
   {
     name: "Omirin Adebayo",
     role: "Full-Stack Developer",
-    image: "/images/team3.jpg", 
+    image: "/images/team-image-3.jpg", 
     bio: "Architecting robust server-side solutions. Expert in Node.js, Python, and Database management.",
     socials: {
       linkedin: "https://linkedin.com",

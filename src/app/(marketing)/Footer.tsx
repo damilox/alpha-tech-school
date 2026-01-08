@@ -10,7 +10,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-xl font-bold text-white mb-4">Alpha Tech School</h3>
             <p className="text-gray-400 max-w-sm">
-              A modern tech school focused on training people build realdigital skills and giving students hands-on experiences they need to grow in today's tech world
+              A modern tech school focused on training people build realdigital skills and giving students hands-on experiences they need to grow in today&#39;s tech world
             </p>
             
           </div>
@@ -31,7 +31,6 @@ export function Footer() {
             <h4 className="text-white font-semibold mb-6">About Us</h4>
             <ul className="space-y-4">
               <li><Link href="/programs" className="text-gray-400 hover:text-white">Our Story</Link></li>
-              <li><Link href="/careers" className="text-gray-400 hover:text-white">careers</Link></li>
               <li><Link href="/contact" className="text-gray-400 hover:text-white">Contact Us</Link></li>
               <li><Link href="/services" className="text-gray-400 hover:text-white">Services</Link></li>
               <li><Link href="/team" className="text-gray-400 hover:text-white">Team</Link></li>
