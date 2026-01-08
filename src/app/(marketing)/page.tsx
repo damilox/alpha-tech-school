@@ -1,6 +1,6 @@
 "use client"
 
-import HomeSection from "../_conponents/HomeSection"
+import HomeSection from "../_components/HomeSection"
 
 const page = () => {
   return (
