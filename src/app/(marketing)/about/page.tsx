@@ -17,6 +17,8 @@ const teamMembers = [
   { name: "Giwa Asiat", role: "UI/UX Designer", image: "/images/opeyemi.jpg" },
   { name: "AbdulRahman Ridwan", role: "UI/UX Designer", image: "/images/rahman.jpg" },
   { name: "Adetoro Habeeblah", role: "UI/UX Designer", image: "/images/habeeb.jpg" },
+  { name: "Dahunsi James", role: "Frontend Developer", image: "/images/james.jpg" },
+  { name: "Ahmad", role: "UI/UX Designer", image: "/images/ahmad.jpg" },
 ];
 
 export default function AboutPage() {
