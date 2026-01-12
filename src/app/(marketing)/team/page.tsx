@@ -57,11 +57,13 @@ const teamMembers: TeamMember[] = [
   {
     name: "Omirin Adebayo",
     role: "Full-Stack Developer",
-    image: "/images/team-image-3.jpg", 
-    bio: "Architecting robust server-side solutions. Expert in Node.js, Python, and Database management.",
+    image: "/images/adebayo.jpg", 
+    bio: "I specialize in architecting and scaling systems for web applications, using core technologies like Typescript, Python, and Rust, paired with comprehensive database and infrastructure management.",
     socials: {
-      linkedin: "https://linkedin.com",
-      github: "https://github.com"
+      linkedin: "https://linkedin.com/in/odysseusoma",
+      github: "https://github.com/odysseusoma",
+      twitter: "https://x.com/odysseusoma",
+      portfolio: "https://odysseusoma.github.io/"
     }
   },
   {
