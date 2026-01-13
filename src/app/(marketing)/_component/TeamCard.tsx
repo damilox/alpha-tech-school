@@ -1,6 +1,5 @@
 "use client"
 import Image from "next/image";
-import Link from "next/link";
 
 interface TeamCardProps {
   name: string;
@@ -10,7 +9,7 @@ interface TeamCardProps {
 
 export function TeamCard({ name, role, image }: TeamCardProps) {
   return (
-    <div className="group relative rounded-xl overflow-hidden aspect-[4/5] bg-gray-100">
+    <div className="group relative rounded-xl overflow-hidden aspect-4/5 bg-gray-100">
       <Image
         src={image}
         alt={name}
@@ -19,7 +18,7 @@ export function TeamCard({ name, role, image }: TeamCardProps) {
       />
       
       
-      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-90" />
+      <div className="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent opacity-90" />
       
     
       <div className="absolute bottom-0 left-0 right-0 p-4 text-center">

@@ -44,6 +44,15 @@ const teamMembers: TeamMember[] = [
       twitter: "https://x.com/saintQ19"
     }
   },
+    {
+    name: "Adesina Abdulkareem",
+    role: "Co- founder & Financial Analyst",
+    image: "/images/adesina (1).jpeg", 
+    bio: "Expert in Dynamic and results-driven Shipping & Trading Analyst with over 5 years of hands-on experience at NNPC Limited, Nigeria's leading energy company. Currently based in Dubai, United Arab Emirates, contributing to the organization's international crude oil trading and shipping operations through NNPC's global trading arm.",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/abdulkareem-adesina-a69182124/",
+    }
+  },
   {
     name: "Oyinkansola Adisa",
     role: "Project Manager",
@@ -88,6 +97,16 @@ const teamMembers: TeamMember[] = [
       twitter: "https://x.com/Duyilemi_Code",
     }
   },
+    {
+    name: "Naseer Shagaya",
+    role: " Product Designer",
+    image: "/images/adesina (2).jpeg", 
+    bio: "My name is Naseer Shagaya. I am a product designer passionate about learning and building meaningful digital experiences. I enjoy solving real user problems through thoughtful and simple design",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/olasupo-sodiq-872304238/",
+      twitter: "https://x.com/saintQ19"
+    }
+  },
 ];
 
 export default function TeamPage() {
@@ -110,7 +129,7 @@ export default function TeamPage() {
             <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow duration-300 border-none bg-secondary/10">
               
               {/* IMAGE SECTION */}
-              <div className="relative aspect-[4/5] w-full bg-gray-200">
+              <div className="relative aspect-4/5 w-full bg-gray-200">
                 <Image 
                   src={member.image} 
                   alt={member.name}
@@ -126,7 +145,7 @@ export default function TeamPage() {
               </CardHeader>
               
               <CardContent className="text-center">
-                <p className="text-muted-foreground text-sm mb-6 leading-relaxed">
+                <p className="text-gray-600 text-sm mb-6 leading-relaxed">
                   {member.bio}
                 </p>
 
