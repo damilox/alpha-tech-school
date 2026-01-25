@@ -19,6 +19,8 @@ const teamMembers = [
   { name: "Adetoro Habeeblah", role: "UI/UX Designer", image: "/images/habeeb.jpg" },
   { name: "Dahunsi James", role: "Frontend Developer", image: "/images/james.jpg" },
   { name: "Adesina Ahmad", role: "UI/UX Designer", image: "/images/ahmad.jpg" },
+  { name: "ADEJORIN ADESEYE", role: "Graphic Designer", image: "/images/tele.png" },
+
 ];
 
 export default function AboutPage() {
@@ -52,7 +54,7 @@ export default function AboutPage() {
               Our Story
             </span>
             <p className="text-gray-600 leading-relaxed text-lg">
-              Pod Alpha Tech will design, build, and launch the Alpha Tech School web platform 
+              Alpha Tech will design, build, and launch the Alpha Tech School web platform 
               digitizing an established over 5-year-old tech education center in Ilorin that 
               has mentored 100+ students, currently mentoring 150+ students through a University 
               of Ilorin partnership and serves local youth ages 15-30.

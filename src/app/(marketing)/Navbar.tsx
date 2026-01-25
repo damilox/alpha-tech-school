@@ -16,7 +16,7 @@ export function Navbar() {
   return (
     <nav className="sticky top-0 z-50 w-full border-b border-black/10 bg-white/95 backdrop-blur-sm">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
-       <div className="relative h-20 w-40 object-contain contrast- saturate">
+       <div className="relative h-20 w-40 object-contain ">
           <Image
             src="/images/logo.png"
             alt="logo"
@@ -25,6 +25,8 @@ export function Navbar() {
             priority
           />
       </div>
+  
+
         <div className="hidden items-center gap-8 md:flex">
           <Link href="/" className="text-sm font-medium text-black-300 hover:text-black-200">Home</Link>
           <Link href="/programs" className="text-sm font-medium text-black-300 hover:text-black-200">Programs</Link>
