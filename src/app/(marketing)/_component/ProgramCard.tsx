@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { Clock, Star, Users } from "lucide-react";
 
 export interface Program {

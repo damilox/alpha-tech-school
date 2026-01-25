@@ -1,6 +1,7 @@
 "use client";
 
 import { CallToAction } from "../(marketing)/_component/CallToAction";
+import CoreValuesSection from "../(marketing)/_component/CoreValuesSection";
 import { FeaturedPrograms } from "../(marketing)/_component/FeaturedPrograms";
 import { Hero } from "../(marketing)/_component/Hero";
 import { OurSchool } from "../(marketing)/_component/OurSchool";
@@ -13,6 +14,7 @@ export default function HomeSection() {
       <Hero />
       <WhyChooseUs />
       <FeaturedPrograms />
+      <CoreValuesSection/>
       <OurSchool/>
       <Testimonials />
       <CallToAction />

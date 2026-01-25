@@ -83,11 +83,11 @@ export function Hero() {
             className="flex items-center divide-x divide-white/20"
           >
             <div className="pr-8">
-              <h3 className="text-2xl md:text-3xl font-bold">500k+</h3>
+              <h3 className="text-2xl md:text-3xl font-bold">300+</h3>
               <p className="text-gray-400 text-sm">Active Students</p>
             </div>
             <div className="px-8">
-              <h3 className="text-2xl md:text-3xl font-bold">50k+</h3>
+              <h3 className="text-2xl md:text-3xl font-bold">50+</h3>
               <p className="text-gray-400 text-sm">Expert Instructors</p>
             </div>
             <div className="pl-8">

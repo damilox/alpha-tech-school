@@ -7,7 +7,7 @@ import { TeamCard } from "../_component/TeamCard";
 const teamMembers = [
   { name: "Olasupo Sodiq", role: "CEO/ Lead-Product Designer", image: "/images/alpha.jpg" },
   { name: "Oyinkansola Adisa", role: "Project Manager", image: "/images/pm.jpg" },
-  { name: "Omirin Adebayo", role: "FullStack Developer", image: "/images/team-image-3.jpg" },
+  { name: "Omirin Adebayo", role: "FullStack Developer", image: "/images/adebayo.jpg" },
   { name: "Ajetomobi Damilola", role: "Frontend Developer", image: "/images/dammy.jpg" },
   { name: "Favour Bakare", role: "Frontend Developer", image: "/images/favour.jpg" },
   { name: "Balogun Khadija", role: "Frontend Developer", image: "/images/deejah.jpg" },
@@ -18,7 +18,7 @@ const teamMembers = [
   { name: "AbdulRahman Ridwan", role: "UI/UX Designer", image: "/images/rahman.jpg" },
   { name: "Adetoro Habeeblah", role: "UI/UX Designer", image: "/images/habeeb.jpg" },
   { name: "Dahunsi James", role: "Frontend Developer", image: "/images/james.jpg" },
-  { name: "Ahmad", role: "UI/UX Designer", image: "/images/ahmad.jpg" },
+  { name: "Adesina Ahmad", role: "UI/UX Designer", image: "/images/ahmad.jpg" },
 ];
 
 export default function AboutPage() {
@@ -100,12 +100,12 @@ export default function AboutPage() {
       <section className="container mx-auto px-6 md:px-12 mb-24">
         <div className="bg-white border border-gray-100 shadow-xl rounded-3xl p-8 md:p-12 flex flex-col md:flex-row justify-between items-center gap-8 text-center md:text-left">
           <div>
-            <h3 className="text-4xl font-bold text-black">500k+</h3>
+            <h3 className="text-4xl font-bold text-black">300+</h3>
             <p className="text-gray-500 font-medium">Active Student</p>
           </div>
           <div className="w-px h-16 bg-gray-200 hidden md:block"></div>
           <div>
-            <h3 className="text-4xl font-bold text-black">50k+</h3>
+            <h3 className="text-4xl font-bold text-black">50+</h3>
             <p className="text-gray-500 font-medium">Expert Instructors</p>
           </div>
           <div className="w-px h-16 bg-gray-200 hidden md:block"></div>

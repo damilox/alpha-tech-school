@@ -11,8 +11,8 @@ export function ContactSection() {
         <div className="mb-16">
           <h2 className="text-4xl font-bold text-black mb-4">Get In Touch</h2>
           <p className="text-gray-600">
-            Have question? we'd love to hear from you. Send us a message <br className="hidden md:block" />
-            and we'll respond as soon as possible
+            Have question? we&#39;d love to hear from you. Send us a message <br className="hidden md:block" />
+            and we&#39;ll respond as soon as possible
           </p>
         </div>
 

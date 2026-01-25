@@ -8,14 +8,19 @@ import {
   ArrowRight, 
   CheckCircle2, 
   Briefcase,
-  Zap,
   Search,
   Rocket,
-  Settings,
   ShieldCheck,
   Clock,
+   BarChart3,
+  Video,
+  Database,
+  Download,
+  FolderKanban,
+  HardDrive,
   Trophy
 } from 'lucide-react';
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -72,7 +77,7 @@ export default function ServicesPage() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">Our Core Services</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              We don't just write code; we build comprehensive solutions tailored to your specific business goals.
+              We don&#39;t just write code; we build comprehensive solutions tailored to your specific business goals.
             </p>
           </div>
 
@@ -148,8 +153,124 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
+    
+    <section className="py- bg-secondary/5">
+  <div className="container mx-auto px-4">
 
-     
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      {/* Digital Marketing */}
+      <Card className="border-none shadow-md bg-background">
+        <CardHeader>
+          <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+            <BarChart3 className="w-6 h-6 text-primary" />
+          </div>
+          <CardTitle>Digital Marketing</CardTitle>
+          <CardDescription>
+            Helping brands grow visibility and conversions online.
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <p className="text-sm text-muted-foreground">
+            SEO, social media marketing, content strategy, and paid advertising campaigns designed to drive measurable growth.
+          </p>
+        </CardContent>
+      </Card>
+
+      {/* Video Editing */}
+      <Card className="border-none shadow-md bg-background">
+        <CardHeader>
+          <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+            <Video className="w-6 h-6 text-primary" />
+          </div>
+          <CardTitle>Video Editing</CardTitle>
+          <CardDescription>
+            High-quality visuals that tell your story.
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <p className="text-sm text-muted-foreground">
+            Professional video editing for marketing, training, social media, and corporate presentations.
+          </p>
+        </CardContent>
+      </Card>
+
+      {/* Data Research */}
+      <Card className="border-none shadow-md bg-background">
+        <CardHeader>
+          <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+            <Database className="w-6 h-6 text-primary" />
+          </div>
+          <CardTitle>Data Research</CardTitle>
+          <CardDescription>
+            Accurate, structured, and actionable insights.
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <p className="text-sm text-muted-foreground">
+            In-depth research, data validation, and analysis to support business and academic decisions.
+          </p>
+        </CardContent>
+      </Card>
+
+      {/* Data Extraction */}
+      <Card className="border-none shadow-md bg-background">
+        <CardHeader>
+          <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+            <Download className="w-6 h-6 text-primary" />
+          </div>
+          <CardTitle>Data Extraction</CardTitle>
+          <CardDescription>
+            Clean data from complex sources.
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <p className="text-sm text-muted-foreground">
+            Extracting structured data from websites, documents, APIs, and databases with precision.
+          </p>
+        </CardContent>
+      </Card>
+
+      {/* Project Work */}
+      <Card className="border-none shadow-md bg-background">
+        <CardHeader>
+          <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+            <FolderKanban className="w-6 h-6 text-primary" />
+          </div>
+          <CardTitle>Project Work</CardTitle>
+          <CardDescription>
+            End-to-end project execution support.
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <p className="text-sm text-muted-foreground">
+            Assistance with academic, technical, and business projects from planning to delivery.
+          </p>
+        </CardContent>
+      </Card>
+
+      {/* File Recovery */}
+      <Card className="border-none shadow-md bg-background">
+        <CardHeader>
+          <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+            <HardDrive className="w-6 h-6 text-primary" />
+          </div>
+          <CardTitle>File Recovery</CardTitle>
+          <CardDescription>
+            Recover lost or damaged files.
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <p className="text-sm text-muted-foreground">
+            Secure recovery of deleted, corrupted, or inaccessible files across storage devices.
+          </p>
+        </CardContent>
+      </Card>
+
+    </div>
+  </div>
+  </section>
+  
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="mb-12">

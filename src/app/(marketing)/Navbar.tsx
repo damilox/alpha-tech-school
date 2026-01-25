@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
+
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,12 +16,15 @@ export function Navbar() {
   return (
     <nav className="sticky top-0 z-50 w-full border-b border-black/10 bg-white/95 backdrop-blur-sm">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
-        
-        
-        <Link href="/" className="text-xl font-bold text-black">
-          Alpha Tech
-        </Link>
-
+       <div className="relative h-20 w-40 object-contain contrast- saturate">
+          <Image
+            src="/images/logo.png"
+            alt="logo"
+            fill
+            className="object-contain"
+            priority
+          />
+      </div>
         <div className="hidden items-center gap-8 md:flex">
           <Link href="/" className="text-sm font-medium text-black-300 hover:text-black-200">Home</Link>
           <Link href="/programs" className="text-sm font-medium text-black-300 hover:text-black-200">Programs</Link>

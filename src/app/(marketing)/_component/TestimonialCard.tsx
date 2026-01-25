@@ -32,7 +32,7 @@ export function TestimonialCard({ name, role, image, quote, rating }: Testimonia
       </div>
 
       {/* 3. The Review Text */}
-      <p className="text-gray-600 text-sm leading-relaxed mb-8 flex-grow">
+      <p className="text-gray-600 text-sm leading-relaxed mb-8 grow">
         {quote}
       </p>
 
