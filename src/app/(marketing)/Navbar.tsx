@@ -18,7 +18,7 @@ export function Navbar() {
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
        <div className="relative h-20 w-40 object-contain ">
           <Image
-            src="/images/logo.png"
+            src="/images/finallogo.png"
             alt="logo"
             fill
             className="object-contain"
