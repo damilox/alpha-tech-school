@@ -21,6 +21,8 @@ const teamMembers = [
   { name: "Adesina Ahmad", role: "UI/UX Designer", image: "/images/ahmad.jpg" },
   { name: "ADEJORIN ADESEYE", role: "Graphic Designer", image: "/images/tele.png" },
   { name: "Stephen Opeyemi", role: "Graphic Designer", image: "/images/stephen.jpeg" },
+  { name: "Adesina Karimat", role: "Data Analyst", image: "/images/Karimat.jpeg" },
+  { name: "Adepoju Halima", role: "Product Designer", image: "/images/Halima.jpeg" },
 
 ];
 

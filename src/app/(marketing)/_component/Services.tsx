@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 export default function Service() {
   return (
     <div>
-           <section className="py-20 md:py-32 container mx-auto px-4 text-center">
+           <section className="pt-30 pb-12 container mx-auto px-4 text-center">
         <Badge variant="secondary" className="mb-4">
           Alpha Tech Solutions
         </Badge>

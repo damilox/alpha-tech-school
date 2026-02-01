@@ -40,7 +40,7 @@ const features = [
     icon: MonitorPlay,
     title: "Live Sessions",
     description:
-      "Join interactive live sessions to ask questions and collaborate with peers.",
+      "Join interactive live sessions to ask questions and collaborate with peers. Join now",
   },
   {
     icon: HelpCircle,

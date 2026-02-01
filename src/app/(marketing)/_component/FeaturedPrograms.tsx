@@ -6,7 +6,7 @@ import { motion, Variants } from "framer-motion";
 
 const courses = [
   {
-    title: "Full Stack Web Development",
+    title: "Web Development",
     category: "Web Development",
     image: "/images/code.jpg",
     duration: "16 weeks",
@@ -56,7 +56,7 @@ const fadeUp: Variants = {
   },
 };
 
-export function FeaturedPrograms() {
+export function   FeaturedPrograms() {
   return (
     <section className="py-20 bg-gray-50 overflow-hidden">
       <motion.div
@@ -80,12 +80,12 @@ export function FeaturedPrograms() {
             </p>
           </div>
 
-          <Link
-            href="/programs"
-            className="text-black font-semibold hover:underline"
-          >
-            Explore Programs
-          </Link>
+       <Link
+        href="/programs"
+        className="bg-black text-white px-6 py-2 rounded-lg font-semibold hover:bg-gray-800 transition-all text-center"
+      >
+        View All Programs
+      </Link>
         </motion.div>
 
         {/* Course Grid */}

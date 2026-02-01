@@ -29,7 +29,7 @@ const programs: Program[] = [
     image: "/images/code.jpg",
     duration: "3h 30m",
     students: 120,
-    rating: 4.5,
+    rating: 4.9,
     featured: true,
   },
   {
@@ -41,7 +41,7 @@ const programs: Program[] = [
     image: "/images/analysis.jpg",
     duration: "4h",
     students: 85,
-    rating: 4.7,
+    rating: 4.5,
   },
    {
     id: "3",
@@ -74,7 +74,7 @@ const programs: Program[] = [
     image: "/images/cybal.jpg",
     duration: "4h",
     students: 85,
-    rating: 4.7,
+    rating: 3.7,
   },
      {
     id: "6",
@@ -129,7 +129,7 @@ const programs: Program[] = [
     image: "/images/digital.jpg",
     duration: "4h",
     students: 85,
-    rating: 4.7,
+    rating: 3.5,
   },
      {
     id: "11",
