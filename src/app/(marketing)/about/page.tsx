@@ -19,10 +19,11 @@ const teamMembers = [
   { name: "Adetoro Habeeblah", role: "UI/UX Designer", image: "/images/habeeb.jpg" },
   { name: "Dahunsi James", role: "Frontend Developer", image: "/images/james.jpg" },
   { name: "Adesina Ahmad", role: "UI/UX Designer", image: "/images/ahmad.jpg" },
-  { name: "ADEJORIN ADESEYE", role: "Graphic Designer", image: "/images/tele.png" },
+  { name: "ADEJORIN ADESEYE", role: "Web Designer", image: "/images/tele.png" },
   { name: "Stephen Opeyemi", role: "Graphic Designer", image: "/images/stephen.jpeg" },
   { name: "Adesina Karimat", role: "Data Analyst", image: "/images/Karimat.jpeg" },
   { name: "Adepoju Halima", role: "Product Designer", image: "/images/Halima.jpeg" },
+  { name: "Taiye Salmah", role: "Frontend Developer", image: "/images/salima.jpeg" },
 
 ];
 

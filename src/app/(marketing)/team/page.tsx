@@ -152,7 +152,7 @@ export default function TeamPage() {
               key={member.name}
               className="group overflow-hidden border-none bg-white shadow-sm hover:shadow-xl transition-all"
             >
-              <div className="relative h-72 w-full overflow-hidden">
+              <div className="relative h-92  md:h-72 w-full overflow-hidden">
                 <Image
                   src={member.image}
                   alt={member.name}
@@ -207,7 +207,6 @@ export default function TeamPage() {
         </div>
       </div>
 
-      {/* BENEFITS SECTION (ADDED AFTER TEAM) */}
       <div className="container mx-auto px-4 mt-32">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
