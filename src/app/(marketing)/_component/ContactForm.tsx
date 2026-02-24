@@ -62,7 +62,20 @@ export function ContactForm() {
           <ValidationError prefix="Email" field="email" errors={state.errors} className="text-red-500 text-xs"/>
         </div>
 
-        
+           
+        <div className="space-y-2">
+          <label className="text-sm font-semibold text-gray-700">Phone Number</label>
+          <input 
+            id="phone"
+            type="tel" 
+            name="phone" 
+            required
+            placeholder="Enter Phone Number"
+            className="w-full p-3 border border-gray-200 rounded-lg focus:outline-none focus:border-black focus:ring-1 focus:ring-black transition"
+          />
+          <ValidationError prefix="Phone" field="phone" errors={state.errors} className="text-red-500 text-xs"/>
+        </div>
+
         <div className="space-y-2">
           <label className="text-sm font-semibold text-gray-700">Subject</label>
           <input 

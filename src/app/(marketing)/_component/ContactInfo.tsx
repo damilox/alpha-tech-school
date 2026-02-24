@@ -2,7 +2,6 @@
 import { Mail, Phone, MapPin, Clock, Facebook, Linkedin, Instagram } from "lucide-react";
 import Link from "next/link";
 
-// Helper component for the social icons
 const SocialIcon = ({ icon: Icon }: { icon: any }) => (
   <div className="w-8 h-8 bg-black text-white rounded-full flex items-center justify-center hover:bg-gray-800 transition">
     <Icon size={16} />
